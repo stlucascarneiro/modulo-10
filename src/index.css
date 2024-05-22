@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  
+  .MuiPaper-root {
+    width: 1200px;
+  }
+}
